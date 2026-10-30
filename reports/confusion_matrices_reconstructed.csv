@@ -1,0 +1,7 @@
+modality,true_label,predicted_0,predicted_1
+Ultrasound,Normal (0),883,15
+Ultrasound,CHD (1),11,164
+X-ray,Normal (0),20,11
+X-ray,CHD (1),2,90
+Audio,Normal (0),88,15
+Audio,CHD (1),19,49

@@ -81,10 +81,10 @@ class ModelRegistry:
 registry = ModelRegistry()
 
 # Environment-variable overrides for checkpoint paths
-AUDIO_CKPT = os.getenv("AUDIO_CKPT", "checkpoints/audio_best.pth")
-US_CKPT = os.getenv("US_CKPT", "checkpoints/ultrasound_best.pth")
-XRAY_CKPT = os.getenv("XRAY_CKPT", "checkpoints/xray_best.pth")
-GMU_CKPT = os.getenv("GMU_CKPT", "checkpoints/gmu_best.pth")
+AUDIO_CKPT = os.getenv("AUDIO_CKPT", "checkpoints/audio/audio_best.pth")
+US_CKPT = os.getenv("US_CKPT", "checkpoints/ultrasound/ultrasound_best.pth")
+XRAY_CKPT = os.getenv("XRAY_CKPT", "checkpoints/xray/xray_best.pth")
+GMU_CKPT = os.getenv("GMU_CKPT", "checkpoints/gmu/gmu_best.pth")
 DEVICE = os.getenv("DEVICE", "cuda" if torch.cuda.is_available() else "cpu")
 
 
